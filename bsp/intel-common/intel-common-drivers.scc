@@ -90,6 +90,7 @@ include features/intel-tco/intel-tco.scc
 include features/intel-vmd/intel-vmd.scc
 include features/thunderbolt/thunderbolt.scc
 include features/intel-uncore-frequency/intel-uncore-frequency.scc
+include features/intel-dptf/intel-dptf.scc
 
 # default policy for standard kernels
 include cfg/usb-mass-storage.scc
