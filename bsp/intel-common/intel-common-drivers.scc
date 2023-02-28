@@ -44,6 +44,7 @@ include features/iwlwifi/iwlwifi.scc
 include features/iwlegacy/iwlegacy.scc
 include features/i40e/i40e.scc
 include features/igc/igc.scc
+include features/ice/ice.scc
 
 # Various RF/Wireless technologies
 include features/nfc/nfc.scc
