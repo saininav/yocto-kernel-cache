@@ -6,6 +6,8 @@
 # especially large generic driver blocks.
 #
 
+kconf hardware intel-common.cfg
+
 include cfg/efi.scc
 # Earlyprintk and port debug requires 8250
 include cfg/8250.scc
