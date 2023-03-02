@@ -28,3 +28,6 @@ include features/intel-sst/intel-sst.scc
 # This line comes last as it has the final word on
 # CONFIG values.
 kconf hardware intel-corei7-64.cfg
+
+# QAT is for 64-bit
+include intel-common-64.scc
