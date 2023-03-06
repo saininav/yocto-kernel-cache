@@ -28,6 +28,9 @@ include features/intel-sst/intel-sst.scc
 # Intel VMD
 include features/intel-vmd/intel-vmd.scc
 
+# Intel Uncore frequency control
+include features/intel-uncore-frequency/intel-uncore-frequency.scc
+
 # This line comes last as it has the final word on
 # CONFIG values.
 kconf hardware intel-corei7-64.cfg
